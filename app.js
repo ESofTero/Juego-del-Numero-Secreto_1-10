@@ -36,7 +36,7 @@ function verificarIntento () {
     intentos++;
     if (intentos > maximosIntentos) {
         asignarTexto ('h1', 'Perdiste...');
-        asignarTexto ('p', 'Has perdido todas tus oportunidades, ¡Suerte para la próxima!');
+        asignarTexto ('p', `Has perdido todas tus oportunidades, el número secreto era ${numeroSecreto} ¡Suerte para la próxima!`);
         estatusDeBotones();
     } 
     return;
